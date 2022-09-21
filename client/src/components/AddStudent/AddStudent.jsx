@@ -84,7 +84,7 @@ class AddStudent extends Component {
             maxLength="25"
             onChange={this.onChangeHandler}
             ref="department"
-            //pattern="[a-z0-9._%+-]+"
+            pattern="(\s*[a-zA-Z])+"
             className="Add-Student-Input"
             required
             id="department"
